@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto Condensed;
+}
+
+.container {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li {
+  width: 80px;
+  height: 60px;
+  text-align: center;
+  line-height: 3;
+}
+
+.header {
+  background: #323232;
+}
+
+.header-nav {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+li::selection {
+  background: #000;
+  color: #c7aa8b;
+}
+
+.banner {
+  width: auto;
+  height: 497px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/IMAGE.png);
+}
+
+.banner-title {
+  text-align: center;
+  color: white;
+}
+
+.banner-title__h1 {
+  padding-top: 67px;
+  font-weight: 400;
+  font-size: 78px;
+  line-height: 66px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.banner-title__p {
+  font-family: Vollkorn;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 56px;
+}
+
+.banner-title__button {
+  width: 134px;
+  height: 40px;
+  font-family: Roboto Condensed;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 50px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.options {
+  background: #c7aa8b;
+  height: 425px;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.options-count {
+  display: flex;
+}
+
+.options-count-RESEARCH {
+  width: 319px;
+  height: 265px;
+}
+
+.options-count-RESEARCH__h3 {
+  padding-top: 102px;
+}
+
+.options-count-RESEARCH__svg {
+  padding-top: 23px;
+}
+
+.options-count-RESEARCH__p {
+  padding-top: 35px;
+}
+
+.banner2 {
+  background-image: url(../images/IMAGE\ 1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  height: 394px;
+  background-repeat: no-repeat;
+  padding-top: 127px;
+  font-family: Roboto Condensed;
+  font-weight: 50;
+  font-size: 47px;
+  color: #c7aa8b;
+}
+
+/*# sourceMappingURL=style.css.map */
