@@ -58,7 +58,7 @@ li::selection {
 
 .banner-title {
   text-align: center;
-  color: white;
+  color: rgb(255, 0, 0);
 }
 
 .banner-title__h1 {
